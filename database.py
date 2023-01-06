@@ -122,7 +122,7 @@ def add_project():
 
 #Methode um einen neuen User anzulegen
 @app.route('/anmelden', methods=['POST'])
-def add_project():
+def add_user():
     name = request.json['name']
     email = request.json['email']
     javascript = request.json['javascript']
