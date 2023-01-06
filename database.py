@@ -141,3 +141,5 @@ def add_user():
     db.session.commit()
 
     return UserSchema.jsonify(new_user)
+
+app.run()
